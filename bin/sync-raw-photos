@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rclone sync /run/media/renner/Extreme\ SSD/photos/raw/ /run/media/renner/Backup/photos/raw/ -P --no-update-modtime --dry-run
+#rclone sync /run/media/renner/Extreme\ SSD/photos/raw/ /run/media/renner/Backup/photos/raw/ -P --no-update-modtime
+
